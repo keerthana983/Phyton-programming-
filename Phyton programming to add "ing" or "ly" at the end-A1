@@ -1,0 +1,16 @@
+def modify_string(input_string):
+    if len(input_string) < 3:
+        return input_string
+    elif input_string.endswith("ing"):
+        return input_string + "ly"
+    else:
+        return input_string + "ing"
+input_string = input("Enter a string: ")
+result = modify_string(input_string)
+print("Modified string:", result)
+
+
+
+
+
+print(p.keerthana-192211638)
