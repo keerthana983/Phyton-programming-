@@ -1,0 +1,18 @@
+def calculate_electricity_bill(units):
+    if units <= 150:
+        bill = units * 3
+    elif units <= 350:
+        bill = 100 + (units - 150) * 4
+    else:
+        bill = 100 + (350 - 150) * 4 + (units - 350) * 5
+    return bill
+units = int(input("Enter the number of units consumed: "))
+bill_amount = calculate_electricity_bill(units)
+print(f"Electricity Bill: Rs. {bill_amount}")
+
+
+
+
+
+
+print(p.keerthana-192211638)
