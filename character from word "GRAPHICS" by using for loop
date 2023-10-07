@@ -1,0 +1,8 @@
+word = "GRAPHICS"
+for char in word:
+    print(char)
+
+
+
+
+print( p.keerthana-192211638)
